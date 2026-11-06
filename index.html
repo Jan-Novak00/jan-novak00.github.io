@@ -2,10 +2,56 @@
 <html lang="cs">
     <head>
         <meta charset="UTF-8"/>
-        <title>Jan Novaks's webpage</title> 
+        <title>Jan Novak's webpage</title> 
+    
+        <style>
+            .hideme {
+                display: none;
+            }
+
+        </style>
     </head>
     <body>
-        <h1>Hello world!</h1>
-
+        <section id="introduction">
+            <h1>Hi! I am Jan Novák</h1>
+        </section>
+        This site is under construction...
+        <section id="about_me" class="hideme">
+            <h2>About me</h2>
+            <div>
+                I am pursuing a master's degree in Computer Science @ Matfyz.
+                I am interested in all kinds of natural sciences and in how we, humans, collect and use knowledge.
+                That is why I am currently focused on Data science.
+            </div>
+        </section>
+        <section id="my_work" class="hideme">
+            <h2>My work</h2>
+            <article id="academic_work">
+                <h3>Academic work</h3>
+                <div>
+                    <h4>Bachelor's thesis</h4>
+                    My bachelor's thesis is centered around implementing interactive charts using contraint solving.
+                    The thesis evaluates how is this approach useful for describing user interaction with a chart.
+                    </br>
+                    Repository with my program for the thesis can be found <a href="https://github.com/Jan-Novak00/Individual-Software-Project---dynamic-constraint-data-visualization">here</a>.
+                </div>
+            </article>
+            <article id="personal_projects">
+                <h3>Personal projects</h3>
+                <div>
+                    <h4>Solar system mapper</h4>
+                    In <a href="https://github.com/Jan-Novak00/SolarSystemMapper">this repository</a> you can find my program for a simple solar system map.
+                    The applications uses <a href="https://ssd.jpl.nasa.gov/horizons/">NASA Horizons API </a> for creating a 2D map of the solar system, which can be filtered for various objects.
+                </div>
+            </article>
+            <article id="other_work" class="hideme">
+                <h3>Other</h3>
+            </article>
+        </section>
+        <section id="cool_stuff" class="hideme">
+            <h2>Stuff I find cool</h2>
+        </section>
     </body>
+    <footer>
+    </footer>
 </html>
